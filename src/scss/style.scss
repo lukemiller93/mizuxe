@@ -36,3 +36,26 @@ body {
     margin: auto;
     border-bottom: 1px #ddd solid
 }
+
+#authors {
+    img {
+        margin-top: -50px;
+    }
+
+    .fa {
+        font-size: 25px;
+    }
+
+    .card {
+        margin-bottom: 15%;
+    }
+
+    .card:hover { 
+        background: $primary;
+        color: white;
+
+        .fa {
+            color: #fff;
+        }
+    }
+}
